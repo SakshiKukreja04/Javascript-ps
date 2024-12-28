@@ -26,3 +26,25 @@ myFunction();
 // for read ecma scripts
 
 // for knowing types we use typeof to know
+
+
+// *************Stack and Heap************
+
+// Stack(primitive) - copy mai changes hote hai
+// Heap (Non-primitive) - refernce of og, values changes in og
+
+let youtubeName = "user"
+anotherytName = youtubeName
+anotherytName ="user_name"
+console.log(youtubeName);
+console.log(anotherytName);
+
+let userOne = {
+    name: "sakshi",
+    upi: "s@ybl"
+}
+let userTwo = userOne
+userTwo.upi = "p@ybl"
+console.log(userOne)
+console.log(userTwo)
+
