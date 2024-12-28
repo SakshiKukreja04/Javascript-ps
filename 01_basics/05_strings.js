@@ -27,3 +27,5 @@ let anotherstring = "sakshi has a new car"
 console.log(anotherstring.split(" "))
 
 // read the mdn reference and also refr console for more methods
+let text = "sakshi"
+console.log(text.repeat(2));
