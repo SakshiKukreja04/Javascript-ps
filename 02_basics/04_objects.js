@@ -47,8 +47,32 @@ const userDe = [
 
 userDe[1].email
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("id"))
+// console.log(tinderUser.hasOwnProperty("id"))
+
+const course = {
+    courseName :"js course",
+    courseFee : 23,
+    courseInstructor : "hitesh sir"
+
+}
+
+// console.log(course.courseInstructor)
+
+const {courseInstructor:instructor} = course //destructuring
+
+console.log(instructor);
+
+
+//json api
+//randomuserme
+//jsonformatter
+
+// {
+//     name : "sakshi",
+//     class: "d7b",
+//     rollno : 29
+// }
