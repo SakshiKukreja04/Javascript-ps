@@ -4,7 +4,7 @@ if(true){
     let a = 20
     const b = 30
     var c = 40
-    console.log("Inner:",a);
+    // console.log("Inner:",a);
     
 }
 //console.log(a); //undefined outside scope
@@ -23,17 +23,17 @@ if(true){
 
 //nested functions 
 
-function One(){
-    const username = "sakshi"
+// function One(){
+//     const username = "sakshi"
     
-    function Two(){
-        const website = "yt"
-        console.log(username)
-    }
-    console.log(website)
+//     function Two(){
+//         const website = "yt"
+//         console.log(username)
+//     }
+//     console.log(website)
 
-    Two()
-}
+//     Two()
+// }
 
 //remeber-- small children can ask older for icecream but older ones cannot
 //therefore username is accessible to print
@@ -49,7 +49,22 @@ function Parent(){
         const website = " yt"
         console.log(username + website)
     }
-    console.log(website); //error
+    // console.log(website); //error
     
 }
-console.log(username)
+// console.log(username) //error
+
+
+//*******interesting********
+
+//Case 1
+addOne(5)
+function addOne(num){
+    return num + 1
+}
+
+addTwo(7) //this cannot be declared before herwe come in with the concept of hosting and the way of declaring the function
+const addTwo = function(num){
+    return num+2
+}
+
