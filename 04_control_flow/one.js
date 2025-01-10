@@ -40,4 +40,6 @@ if(userLoggedIn || googleLoggedIn){
     console.log("you are logged in");
 }
 
+log
+
 
